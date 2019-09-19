@@ -1,0 +1,21 @@
+name: notifications
+description: A plugin for tracking notifications on the device. Works exclusively for Android.
+version: 0.0.3
+author: CACHET Team <cph.cachet@gmail.com>
+homepage: https://github.com/cph-cachet/flutter-plugins/tree/master/packages/notifications
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  plugin:
+    androidPackage: cachet.plugins.notifications
+    pluginClass: NotificationsPlugin
